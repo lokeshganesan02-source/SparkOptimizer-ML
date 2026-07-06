@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large generated datasets
+data/transactions_25m.csv
+data/txn_10m.csv
+data/txn_5m.csv
+data/txn_1m.csv
+data/txn_500k.csv
+data/accounts_500k.csv
+data/merchants_100k.csv
+
+# Raw generated data
+data/raw/
+
+# Serialized outputs
+data/serialized/
+
+# Python cache
+__pycache__/

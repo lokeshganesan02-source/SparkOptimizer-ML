@@ -1,0 +1,5 @@
+job_name,dataset,runs_per_config,default_shuffle,default_memory,default_cores,default_time_avg,default_all_runs,ml_shuffle,ml_memory,ml_cores,ml_time_avg,ml_all_runs,improvement_pct,time_saved_sec,timestamp
+join,txn_5m.csv,3,200,1g,2,15.722,"[15.942, 15.726, 15.498]",16,2g,4,12.81,"[13.201, 13.141, 12.089]",18.52,2.91,2026-03-18 13:09:04
+aggregation,txn_5m.csv,3,200,1g,2,25.06,"[25.339, 25.171, 24.67]",16,2g,4,23.796,"[24.857, 23.127, 23.405]",5.04,1.26,2026-03-18 13:12:17
+filter,txn_5m.csv,3,200,1g,2,18.162,"[16.93, 17.95, 19.605]",32,3g,2,18.192,"[19.311, 16.67, 18.594]",-0.17,-0.03,2026-03-18 13:14:54
+window,txn_5m.csv,3,200,1g,2,27.836,"[28.177, 27.79, 27.541]",16,2g,4,27.4,"[26.861, 27.482, 27.858]",1.57,0.44,2026-03-18 13:18:28

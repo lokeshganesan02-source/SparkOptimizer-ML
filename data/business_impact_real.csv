@@ -1,0 +1,4 @@
+scenario,cluster_description,monthly_jobs,avg_improvement_pct,compute_saved_monthly,tuning_saved_monthly,total_monthly_savings,annual_savings
+Small Analytics Team,"5-node EMR cluster, m5.xlarge",4400,11.4,1.02,500,501.02,6012.2
+Mid-Size Bank,"20-node EMR cluster, m5.2xlarge",44000,11.4,81.34,12000,12081.34,144976.03
+Enterprise Bank,"100-node EMR cluster, m5.4xlarge",220000,11.4,4066.77,240000,244066.77,2928801.28

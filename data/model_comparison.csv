@@ -1,0 +1,4 @@
+model,mae,rmse,r2,cv_r2,cv_std
+RandomForest,2.87,9.214,0.683,0.879,0.037
+GradientBoosting,3.506,9.515,0.662,0.876,0.038
+XGBoost,3.211,8.565,0.726,0.891,0.039

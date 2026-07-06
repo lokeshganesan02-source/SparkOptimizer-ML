@@ -1,0 +1,9 @@
+job_type,period,samples,mae,rmse,r2,mean_actual,mean_pred
+join,Early,50,0.268,0.505,0.655,0.46,0.53
+join,Late,50,2.193,2.785,0.944,19.23,18.65
+aggregation,Early,47,1.102,1.39,0.844,4.82,4.59
+aggregation,Late,48,21.622,61.46,0.121,44.03,24.43
+filter,Early,49,9.548,15.557,0.04,24.05,19.34
+filter,Late,49,17.229,39.973,0.196,30.25,16.31
+window,Early,50,0.291,0.409,0.982,2.84,2.89
+window,Late,50,2.502,3.959,0.921,25.54,25.73
