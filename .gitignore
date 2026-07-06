@@ -1,4 +1,6 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.py[cod]
 *.pyo
@@ -8,9 +10,6 @@ __pycache__/
 venv/
 env/
 
-# Logs
-*.log
-
 # IDE
 .vscode/
 .idea/
@@ -19,7 +18,13 @@ env/
 .DS_Store
 Thumbs.db
 
-# Large generated datasets
+# Logs
+*.log
+
+# ==================================
+# Generated Large Datasets
+# ==================================
+
 data/transactions_25m.csv
 data/txn_10m.csv
 data/txn_5m.csv
@@ -28,11 +33,12 @@ data/txn_500k.csv
 data/accounts_500k.csv
 data/merchants_100k.csv
 
-# Raw generated data
 data/raw/
-
-# Serialized outputs
 data/serialized/
 
-# Python cache
-__pycache__/
+# Spark
+metastore_db/
+spark-warehouse/
+
+# Temporary
+*.tmp
